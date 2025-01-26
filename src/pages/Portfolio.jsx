@@ -3,23 +3,26 @@ import React from 'react';
 function Portfolio() {
   const projects = [
     {
-      title: "Project One",
-      description: "A web application built using React and Node.js. It features user authentication and a dynamic dashboard.",
-      link: "https://example.com/project1",
-      image: "https://via.placeholder.com/600x400?text=Project+One"
+      title: "Weather Dashboard",
+      description:
+        "Weather dashboard application: Will show users a 5 day weather forecast depending on the city that they select.",
+      link: "https://github.com/Rafa245/Weather-Dashboard-09-",
+      image: "src/assets/weather-pic.png",
     },
     {
-      title: "Project Two",
-      description: "An e-commerce website built with React, Redux, and Firebase. It includes a shopping cart, product pages, and payment integration.",
-      link: "https://example.com/project2",
-      image: "https://via.placeholder.com/600x400?text=Project+Two"
+      title: "Personal Blog",
+      description:
+        "Two-page website/blog where users will input and view blog posts.",
+      link: "https://github.com/Rafa245/Challenge-4-Web-APIs",
+      image: "src/assets/blog-pic.png",
     },
     {
-      title: "Project Three",
-      description: "A blog platform built with HTML, CSS, and JavaScript. Users can write, edit, and delete posts.",
-      link: "https://example.com/project3",
-      image: "https://via.placeholder.com/600x400?text=Project+Three"
-    }
+      title: "Vehicle Builder",
+      description:
+        "TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks.",
+      link: "https://github.com/Rafa245/Vehicle-Builder",
+      image: "src/assets/vehicle-pic.webp",
+    },
   ];
 
   return (
@@ -31,21 +34,25 @@ function Portfolio() {
 
       <section className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="project-card bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
-            <div className="p-6">
-              <h2 className="text-xl font-bold">{project.title}</h2>
-              <p className="text-gray-600 mt-2">{project.description}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 mt-4 inline-block"
-              >
-                View Project
-              </a>
+          <a
+            key={index}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block transform transition duration-300 ease-in-out hover:scale-110"
+          >
+            <div className="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h2 className="text-xl font-bold">{project.title}</h2>
+                <p className="text-gray-600 mt-2">{project.description}</p>
+              </div>
             </div>
-          </div>
+          </a>
         ))}
       </section>
     </div>

@@ -1,6 +1,15 @@
 import React from 'react';
 
 function About() {
+  const skills = [
+    { name: "HTML", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+    { name: "CSS", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+    { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { name: "TypeScript", url: "https://www.typescriptlang.org/" },
+    { name: "React", url: "https://reactjs.org/" },
+    { name: "Node.js", url: "https://nodejs.org/" },
+  ];
+
   return (
     <div className="about-page container mx-auto px-4 py-6">
       <header className="text-center py-10 bg-blue-600 text-white">
@@ -29,14 +38,16 @@ function About() {
       <section className="mt-10 text-center">
         <h2 className="text-2xl font-bold">Skills & Technologies</h2>
         <ul className="mt-6 flex flex-wrap justify-center gap-6">
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">HTML</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">CSS</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">JavaScript</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">React</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">Node.js</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">Express</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">MongoDB</li>
-          <li className="bg-blue-600 text-white px-4 py-2 rounded-md">Git</li>
+          {skills.map((skill, index) => (
+            <li
+              key={index}
+              className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer transition transform duration-200 ease-in-out hover:scale-125 hover:bg-blue-700"
+            >
+              <a href={skill.url} target="_blank" rel="noopener noreferrer">
+                {skill.name}
+              </a>
+            </li>
+          ))}
         </ul>
       </section>
     </div>
