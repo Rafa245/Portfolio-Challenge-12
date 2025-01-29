@@ -23,6 +23,34 @@ function Portfolio() {
       link: "https://github.com/Rafa245/Vehicle-Builder",
       image: "src/assets/vehicle-pic.webp",
     },
+    {
+      title: "Readme Generator",
+      description:
+        "CLI application that generates a professional README file based on user input.",
+      link: "https://github.com/Rafa245/READ.ME-Generator",
+      image: "src/assets/readme-pic.png",
+    },
+    {
+      title: "Employee Tracker",
+      description:
+        "A command-line application that manages a company's employee database, using Node.js, Inquirer, and PostgreSQL.",
+      link: "https://github.com/Rafa245/Challenge-10-SQL",
+      image: "src/assets/employee-tracker.png",
+    },
+    {
+      title: "Pet Props Adoption",
+      description:
+        "An adoption platform where users can search and find pets up for adoption.",
+      link: "https://github.com/bbybee1747/PetProps",
+      image: "src/assets/pet adoption.jpeg",
+    },
+    {
+      title: "Hobbies on a Budget",
+      description:
+        "A website dedicated to helping people in search of new hobbies it make recommendations based on price range, activity type, and commitment.",
+      link: "https://github.com/Michael-E238/Hobby-Hub",
+      image: "src/assets/hobbies-pic.png",
+    },
   ];
 
   return (

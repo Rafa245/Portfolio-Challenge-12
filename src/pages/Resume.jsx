@@ -18,8 +18,8 @@ function Resume() {
 
         {/* Resume Button */}
         <a
-          href="/resume.pdf"
-          download="Resume.pdf"
+          href="/Rafael_Guerra_Resume.pdf"
+          download="Rafael_Guerra_Resume"
           className="bg-blue-600 text-white font-bold py-4 px-8 rounded-full shadow-lg text-xl hover:bg-blue-700 transition duration-300"
         >
           Download My Resume

@@ -17,8 +17,18 @@ function About() {
         <p className="mt-4 text-lg">Learn more about my journey and skills.</p>
       </header>
 
-      <section className="mt-10 text-center">
-        <div className="max-w-3xl mx-auto">
+      <section className="mt-10 flex flex-col md:flex-row items-center text-center md:text-left">
+        {/* Image Section */}
+        <div className="w-full md:w-1/3 mb-6 md:mb-0">
+          <img
+            src="src/assets/portfolio-image.jpg" // Replace this with the actual path to your picture
+            alt="Rafael Guerra"
+            className="rounded-full shadow-lg w-64 h-64 mx-auto md:mx-0"
+          />
+        </div>
+
+        {/* Text Section */}
+        <div className="w-full md:w-2/3 md:pl-10">
           <p className="text-lg mb-6">
             Hello! I’m Rafael Guerra, a passionate web developer who loves building beautiful and functional websites. 
             I specialize in front-end development, but I also enjoy exploring back-end technologies to create full-stack solutions. 

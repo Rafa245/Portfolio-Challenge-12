@@ -7,6 +7,8 @@ function Contact() {
     message: '',
   });
 
+  const [successMessage, setSuccessMessage] = useState('');
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -17,13 +19,22 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here (e.g., sending data to an API or email)
+    
+    // Simulating form submission
     console.log('Form submitted', formData);
+
+    // Show success message
+    setSuccessMessage('Message sent! Thank you for reaching out.');
+
+    // Clear form data
     setFormData({
       name: '',
       email: '',
       message: '',
     });
+
+    // Hide message after 5 seconds
+    setTimeout(() => setSuccessMessage(''), 5000);
   };
 
   return (
@@ -32,6 +43,7 @@ function Contact() {
         <h1 className="text-3xl font-bold">Get In Touch</h1>
         <p className="mt-4 text-lg">I'd love to hear from you. Please fill out the form below to reach out!</p>
       </header>
+
       <section className="mt-10 max-w-2xl mx-auto">
         <form onSubmit={handleSubmit} className="bg-white p-6 shadow-lg rounded-lg">
           <div className="mb-4">
@@ -80,6 +92,11 @@ function Contact() {
             Send Message
           </button>
         </form>
+
+        {/* Success Message */}
+        {successMessage && (
+          <p className="mt-4 text-green-600 text-center font-semibold">{successMessage}</p>
+        )}
       </section>
     </div>
   );

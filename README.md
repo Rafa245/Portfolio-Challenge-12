@@ -14,18 +14,18 @@
 * Clone the repository in your command line by entering: git clone https://github.com/Rafa245/Portfolio-Challenge-12
 * Run "npm install" in your terminal to install all packages associated with this project and connect all files together.
   ## Usage
-  Open the project and when in the root type "npm run dev" to get the project running.
+  Open the project and when in the root type "npm run start" to get the project running.
   ## Contact-Me
   * Name - Rafael Guerra
   * Email - rafaguerra245@hotmail.com
   * GitHub - [Rafa245](https://github.com/Rafa245)
   ## Contributors
   ChatGPT
-  ## 
+  ##
+  Link to Project: https://github.com/Rafa245/Portfolio-Challenge-12
 
   Link to video example: https://www.youtube.com/watch?v=DPKsM_3KIC0
 
-  License: MIT 
-
-  https://opensource.org/licenses/MIT
+  License MIT: https://opensource.org/licenses/MIT
   
+  ![alt text](<public/Screen Shot .jpg>)
