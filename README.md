@@ -25,11 +25,17 @@
   Link to Portfolio Project: https://github.com/Rafa245/Portfolio-Challenge-12
 
   Link to Project 1: https://github.com/Rafa245/Weather-Dashboard-09-
+
   Link to Project 2: https://github.com/Rafa245/Challenge-4-Web-APIs
+
   Link to Project 3: https://github.com/Rafa245/Vehicle-Builder
+
   Link to Project 4: https://github.com/Rafa245/READ.ME-Generator
+
   Link to Project 5: https://github.com/Rafa245/Challenge-10-SQL
+
   Link to Project 6: https://github.com/bbybee1747/PetProps
+  
   Link to Project 7: https://github.com/Michael-E238/Hobby-Hub
 
 
