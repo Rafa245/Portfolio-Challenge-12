@@ -24,6 +24,12 @@
   ##
   Link to Portfolio Project: https://github.com/Rafa245/Portfolio-Challenge-12
 
+  Links to Challenge Portfolio being deployed on Netlify: 
+
+  https://portfolio-challenge-12.netlify.app/
+
+  https://app.netlify.com/sites/portfolio-challenge-12/overview
+
   Link to Project 1: https://github.com/Rafa245/Weather-Dashboard-09-
 
   Link to Project 2: https://github.com/Rafa245/Challenge-4-Web-APIs
