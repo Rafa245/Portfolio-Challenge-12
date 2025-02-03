@@ -21,7 +21,7 @@ function About() {
         {/* Image Section */}
         <div className="w-full md:w-1/3 mb-6 md:mb-0">
           <img
-            src="src/assets/portfolio-image.jpg" // Replace this with the actual path to your picture
+            src="assets/portfolio-image.jpg" // Replace this with the actual path to your picture
             alt="Rafael Guerra"
             className="rounded-full shadow-lg w-64 h-64 mx-auto md:mx-0"
           />

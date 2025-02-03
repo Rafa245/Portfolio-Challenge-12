@@ -7,49 +7,49 @@ function Portfolio() {
       description:
         "Weather dashboard application: Will show users a 5 day weather forecast depending on the city that they select.",
       link: "https://github.com/Rafa245/Weather-Dashboard-09-",
-      image: "src/assets/weather-pic.png",
+      image: "assets/weather-pic.png",
     },
     {
       title: "Personal Blog",
       description:
         "Two-page website/blog where users will input and view blog posts.",
       link: "https://github.com/Rafa245/Challenge-4-Web-APIs",
-      image: "src/assets/blog-pic.png",
+      image: "assets/blog-pic.png",
     },
     {
       title: "Vehicle Builder",
       description:
         "TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks.",
       link: "https://github.com/Rafa245/Vehicle-Builder",
-      image: "src/assets/vehicle-pic.webp",
+      image: "assets/vehicle-pic.webp",
     },
     {
       title: "Readme Generator",
       description:
         "CLI application that generates a professional README file based on user input.",
       link: "https://github.com/Rafa245/READ.ME-Generator",
-      image: "src/assets/readme-pic.png",
+      image: "assets/readme-pic.png",
     },
     {
       title: "Employee Tracker",
       description:
         "A command-line application that manages a company's employee database, using Node.js, Inquirer, and PostgreSQL.",
       link: "https://github.com/Rafa245/Challenge-10-SQL",
-      image: "src/assets/employee-tracker.png",
+      image: "assets/employee-tracker.png",
     },
     {
       title: "Pet Props Adoption",
       description:
         "An adoption platform where users can search and find pets up for adoption.",
       link: "https://github.com/bbybee1747/PetProps",
-      image: "src/assets/pet adoption.jpeg",
+      image: "assets/pet adoption.jpeg",
     },
     {
       title: "Hobbies on a Budget",
       description:
         "A website dedicated to helping people in search of new hobbies it make recommendations based on price range, activity type, and commitment.",
       link: "https://github.com/Michael-E238/Hobby-Hub",
-      image: "src/assets/hobbies-pic.png",
+      image: "assets/hobbies-pic.png",
     },
   ];
 
